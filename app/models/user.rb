@@ -10,8 +10,11 @@ class User < ApplicationRecord
   validates :password, length: { in: 2..50 }
 
   def self.authenticate_with_credentials(email, password)
+    #take care of case sensitivity and whitespacing
     email = email.downcase.strip
+    #find email
     @user = User.find_by_email(email)
+    #if user exists and authicates
     if @user && @user.authenticate(password)
       @user
     else
