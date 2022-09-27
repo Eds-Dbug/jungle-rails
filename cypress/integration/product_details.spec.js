@@ -27,6 +27,8 @@ describe('example to-do app', () => {
   it("will click on the scented blade product and go to the product detail page", () => {
     cy.get(':nth-child(1) > a > img').click();
     cy.get(':nth-child(2) > h1').should("be.visible")
+    cy.get('.quantity').should('exist');
+    cy.get('.price').should('exist');
     cy.contains("Scented Blade").should("exist");
   });
 
