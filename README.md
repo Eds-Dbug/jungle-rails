@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 that sells plants and other green flora.
 
 ## Setup
 
@@ -14,9 +14,25 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 8. Run `bin/rails s -b 0.0.0.0` to start the server
 
 ## In Action
-- The page enlarged
+- The main page
 
-!["The page enlarged"](https://github.com/Eds-Dbug/tweeter/blob/master/public/images/tweeter_page_large.png)
+!["Welcome to the jungle"](https://github.com/Eds-Dbug/jungle-rails/blob/master/public/images/Welcome_to_the_jungle.png)
+
+- One of the categories of purchasable plants "Evergreens"
+
+!["Evergreens"](https://github.com/Eds-Dbug/jungle-rails/blob/master/public/images/Evergreens.png)
+
+- Shopping for trees
+
+!["Shopping for Greens"](https://github.com/Eds-Dbug/jungle-rails/blob/master/public/images/Shopping.png)
+
+- Use credit card to pay
+
+!["Pay with Credit Card"](https://github.com/Eds-Dbug/jungle-rails/blob/master/public/images/using_credit_card.png)
+
+- Thank you for your purchase
+
+!["Pay with Credit Card"](https://github.com/Eds-Dbug/jungle-rails/blob/master/public/images/receipt.png)
 
 ## Database
 
